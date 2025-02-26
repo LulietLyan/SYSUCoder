@@ -1,7 +1,7 @@
 package main
 
 import (
-	"SYSUCODER/warmup/initializer"
+	"SYSUCODER/boot/initializer"
 )
 
 func main() {
