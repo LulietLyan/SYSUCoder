@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31ea7f5c-8681-43e0-a2f7-ea9bbbafe934" name="Changes" comment="Finish email utilities">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/misc.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/misc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/time.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/time.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/token.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/token.go" afterDir="false" />
-    </list>
+    <list default="true" id="31ea7f5c-8681-43e0-a2f7-ea9bbbafe934" name="Changes" comment="Finish all utilities" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +19,32 @@
   </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Go" />
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="backend" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2tRX42ZIfJKxYbciUbzDrUephmK" />
@@ -93,7 +114,8 @@
     <MESSAGE value="Initialize project framework" />
     <MESSAGE value="Improve more configurations" />
     <MESSAGE value="Finish email utilities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish email utilities" />
+    <MESSAGE value="Finish all utilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish all utilities" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
