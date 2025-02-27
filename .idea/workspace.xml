@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31ea7f5c-8681-43e0-a2f7-ea9bbbafe934" name="Changes" comment="Improve more configurations">
+    <list default="true" id="31ea7f5c-8681-43e0-a2f7-ea9bbbafe934" name="Changes" comment="Finish email utilities">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/email.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/email.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/misc.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/misc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/time.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/time.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/token.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/token.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/yaml.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/yaml.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,22 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;configurable..is.expanded&quot;: &quot;true&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Go_WorkSpace/src/SYSUCODER&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;go.vgo&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "configurable..is.expanded": "true",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "D:/Go_WorkSpace/src/SYSUCODER",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "go.vgo"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build SYSUCODER/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="SYSUCODER" />
@@ -94,7 +92,8 @@
     <MESSAGE value="Initialize project structure" />
     <MESSAGE value="Initialize project framework" />
     <MESSAGE value="Improve more configurations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve more configurations" />
+    <MESSAGE value="Finish email utilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish email utilities" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
