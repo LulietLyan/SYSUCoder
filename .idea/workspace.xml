@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31ea7f5c-8681-43e0-a2f7-ea9bbbafe934" name="Changes" comment="Initialize project framework">
-      <change afterPath="$PROJECT_DIR$/warmup/configuration/conf.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/warmup/configuration/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/warmup/configuration/email.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/warmup/configuration/judge.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/warmup/configuration/neko.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/warmup/configuration/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/warmup/configuration/token.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/warmup/configuration/var.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/warmup/configuration/yuki.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/warmup/initializer/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/warmup/initializer/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/warmup/initializer/judge0.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/warmup/initializer/neko.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/warmup/initializer/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/warmup/initializer/yuki.go" afterDir="false" />
+    <list default="true" id="31ea7f5c-8681-43e0-a2f7-ea9bbbafe934" name="Changes" comment="Improve more configurations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/email.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/email.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/token.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/token.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/yaml.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/yaml.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +27,6 @@
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GoLibraries">
-    <option name="urls">
-      <list>
-        <option value="file://$PROJECT_DIR$" />
-      </list>
-    </option>
   </component>
   <component name="ProjectId" id="2tRX42ZIfJKxYbciUbzDrUephmK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -110,14 +93,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialize project structure" />
     <MESSAGE value="Initialize project framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize project framework" />
+    <MESSAGE value="Improve more configurations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve more configurations" />
   </component>
   <component name="VgoProject">
-    <environment>
-      <map>
-        <entry key="GO111MODULE" value="on" />
-      </map>
-    </environment>
     <settings-migrated>true</settings-migrated>
   </component>
 </project>

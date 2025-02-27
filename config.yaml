@@ -1,0 +1,32 @@
+server:
+  port: 14514
+  datamake_limit: 100000
+email:
+  host: smtp.163.com
+  port: 465
+  email: 15220362887@163.com
+  smtp_pwd: LFupimrG26TauTqG
+token:
+  expire: 864000
+  refresh: 432000
+  secret: SYSUCODER
+database:
+  host: 127.0.0.1
+  port: 3306
+  name: sysucoder
+  user: root
+  password: Resegar$8d
+  max_open_conns: 10
+  max_idle_conns: 5
+judge:
+  host: https://judge0-ce.p.rapidapi.com
+  port:
+  token: 83aa44524dmsh8da5b1b6e8f9b6bp1c737djsn49fc180676c0
+yuki-image:
+  host: http://127.0.0.1
+  port: 7415
+  token: XIv3ybWOTIR2Md3sKuMk6AgqjBUH48IRK2d9RMqHGeVymDwc9AWMFOWV7lXc3foJ
+neko-acm:
+  host: http://127.0.0.1
+  port: 14515
+  token: 131Fa67D3C52f8d27BbDb777eC23dE3Bb68A24109Fb4c46Cd78471fAa3f9d529
