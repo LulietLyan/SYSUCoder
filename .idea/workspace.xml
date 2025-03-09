@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31ea7f5c-8681-43e0-a2f7-ea9bbbafe934" name="Changes" comment="Finish all utilities" />
+    <list default="true" id="31ea7f5c-8681-43e0-a2f7-ea9bbbafe934" name="Changes" comment="Finish all utilities">
+      <change afterPath="$PROJECT_DIR$/boot/entity/blog.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/entity/collection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/entity/comment.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/entity/history.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/entity/judgement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/entity/language.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/entity/problem.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/entity/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/entity/submission.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/entity/tag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/entity/testcase.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/entity/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/blog.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/comment.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/common_testcase.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/count.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/data_maker.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/history.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/judge0.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/language.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/misc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/neko.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/problem.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/record.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/response.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/statistics.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/submission.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/tag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/time.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/model/yuki.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/initializer/initializer.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/initializer/initializer.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,22 +91,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "configurable..is.expanded": "true",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "D:/Go_WorkSpace/src/SYSUCODER",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "go.vgo"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;configurable..is.expanded&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Go_WorkSpace/src/SYSUCODER&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go.vgo&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build SYSUCODER/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="SYSUCODER" />
