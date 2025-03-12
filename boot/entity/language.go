@@ -1,5 +1,6 @@
 package entity
 
+// LanguageStatus 语言状态：1 弃用，2 禁用，3 启用
 type LanguageStatus uint8
 
 const (
@@ -8,7 +9,6 @@ const (
 	LanguageEnabled    LanguageStatus = 3
 )
 
-// 类型 LanguageStatus 返回字符串的方法
 func (s LanguageStatus) String() string {
 	switch s {
 	case LanguageDeprecated:
@@ -31,7 +31,6 @@ type Language struct {
 	Status LanguageStatus `gorm:"not null;default:3;comment:状态" json:"status"`
 }
 
-// TableName 为 Language 实现表名方法
 func (Language) TableName() string {
 	return "tbl_language"
 }
