@@ -122,7 +122,7 @@ func tokenAutoRefresh(c *gin.Context) error {
 	uid := uint64(id_)
 
 	// 生成新token
-	token, err := utils.GenerateToken(uid)
+	token, err := utils.GenerateToken(int64(uid))
 	if err != nil {
 		c.JSON(http.StatusUnauthorized, model.RespError("token刷新失败", nil))
 		c.Abort()

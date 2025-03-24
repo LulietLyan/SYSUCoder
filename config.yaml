@@ -4,8 +4,8 @@ server:
 email:
   host: smtp.163.com
   port: 465
-  email: 15220362887@163.com
-  smtp_pwd: LFupimrG26TauTqG
+  email: 16603026070@163.com
+  smtp_pwd: VG65EgrsuUhD5nHY
 token:
   expire: 864000
   refresh: 432000

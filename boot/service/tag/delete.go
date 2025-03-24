@@ -1,0 +1,26 @@
+package tag
+
+import (
+	"SYSUCODER/boot/DAO"
+	"errors"
+	"log"
+)
+
+// 根据ID删除标签
+func DeleteById(id uint64) error {
+	// 查询标签
+	_, err := DAO.SelectTagById(id)
+	if err != nil {
+		log.Println(err)
+		return errors.New("标签不存在")
+	}
+
+	// 删除标签
+	err = DAO.DeleteTagById(id)
+	if err != nil {
+		log.Println(err)
+		return errors.New("删除失败")
+	}
+
+	return nil
+}

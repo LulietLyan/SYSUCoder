@@ -23,7 +23,7 @@ func InitServer() error {
 	}
 
 	// 启动服务
-	err = ginServer.Run(":", config.Port)
+	err = ginServer.Run(":" + config.Port)
 	if err != nil {
 		return err
 	}

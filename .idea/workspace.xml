@@ -5,21 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31ea7f5c-8681-43e0-a2f7-ea9bbbafe934" name="Changes" comment="Finish most components about judge0">
-      <change afterPath="$PROJECT_DIR$/boot/DAO/blog.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/DAO/comment.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/DAO/history.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/DAO/judgement.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/DAO/language.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/DAO/problem.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/DAO/problem_tag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/DAO/solution.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/DAO/submission.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/DAO/tag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/DAO/testcase.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/DAO/user.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/entity/blog.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/entity/blog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/model/blog.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/model/blog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/model/comment.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/model/comment.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/model/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/model/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/model/count.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/model/count.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/model/history.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/model/history.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/model/language.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/model/language.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/model/neko.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/model/neko.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/model/problem.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/model/problem.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/model/record.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/model/record.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/model/solution.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/model/solution.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/model/statistics.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/model/statistics.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/model/submission.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/model/submission.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/model/tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/model/tag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/model/time.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/model/time.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot/model/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/boot/model/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/handler/system.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/handler/system.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/middlewares/auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/middlewares/auth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/neko/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/neko/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/yuki/avatar.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/yuki/avatar.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/yuki/image.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/yuki/image.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/yuki/problem.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/yuki/problem.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/misc.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/misc.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,7 +1,7 @@
 package neko
 
 import (
-	"SYSUCODER/tools/model"
+	"SYSUCODER/boot/model"
 	"io"
 	"log"
 	"net/http"
