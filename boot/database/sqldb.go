@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+// createSqlDb 执行自定义 SQL 初始化操作
 func createSqlDb() error {
 	var err error
 	config := configuration.Conf.Datebase

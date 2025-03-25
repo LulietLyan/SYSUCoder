@@ -8,8 +8,8 @@ import (
 func initServer() {
 	err := server.InitServer()
 	if err != nil {
-		log.Println("Initialize server failed!")
+		log.Println("------------------------Initialize server failed!------------------------")
 		panic(err)
 	}
-	log.Println("Initialize server successed!")
+	log.Println("------------------------Initialize server succeeded!------------------------")
 }

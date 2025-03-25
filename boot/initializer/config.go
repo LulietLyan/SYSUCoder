@@ -11,5 +11,5 @@ func initConfig() {
 		log.Println("------------------------Initialize configurations failed!------------------------")
 		panic(err)
 	}
-	log.Println("------------------------Initialize configurations successed!------------------------")
+	log.Println("------------------------Initialize configurations succeeded!------------------------")
 }

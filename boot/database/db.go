@@ -41,6 +41,7 @@ func InitDatabase() error {
 		return err
 	}
 
+	// 根据结构体自动迁移数据库表结构
 	autoMigrate()
 
 	return nil

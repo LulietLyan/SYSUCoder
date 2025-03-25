@@ -15,14 +15,14 @@ func initJudge0() {
 	err = judge0.InitJudge()
 	if err != nil {
 		log.Println(err)
-		log.Println("Initialize Judge0 failed!")
+		log.Println("------------------------Initialize Judge0 failed!------------------------")
 		return
 	}
 
 	err = InitJudgeLanguages()
 	if err != nil {
 		log.Println(err)
-		log.Println("Initialize Judge0 Languages failed!")
+		log.Println("------------------------Initialize Judge0 Languages failed!------------------------")
 		return
 	}
 

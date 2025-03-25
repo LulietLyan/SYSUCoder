@@ -16,11 +16,11 @@ func InitJudge() error {
 	log.Println("Connecting to judge server: " + preUrl)
 	response, err := About()
 	if err != nil || response.StatusCode != http.StatusOK {
-		log.Println("Judge server is not available!")
+		log.Println("------------------------Judge server is not available!------------------------")
 		return err
 	}
 
-	log.Println("Judge server is available.")
+	log.Println("------------------------Judge server is available.------------------------")
 	return nil
 }
 

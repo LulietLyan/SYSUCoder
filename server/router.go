@@ -10,19 +10,21 @@ import (
 )
 
 func InitRoute() error {
-	// index
+	// 访问根目录时返回 200
 	ginServer.GET("/", func(c *gin.Context) {
 		c.JSON(http.StatusOK, model.RespOk("SYSUCODER back end start running successfully!", nil))
 	})
 
-	// 404
+	// 当请求报文的路由不存在时返回 404
 	ginServer.NoRoute(func(c *gin.Context) {
 		c.JSON(http.StatusNotFound, model.RespError("404 Not Found", nil))
 	})
 
+	// 注册一个全局中间件 TokenGetInfo，所有后续定义的路由都会经过此中间件
+	// 注意：前面注册的路由不会经过此中间件
 	ginServer.Use(middlewares.TokenGetInfo())
 
-	// 初始化路由
+	// 模块化路由
 	routes.InitUserRoute(ginServer)
 	routes.InitProblemRoute(ginServer)
 	routes.InitTagRoute(ginServer)
