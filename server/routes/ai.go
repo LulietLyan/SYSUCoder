@@ -13,9 +13,9 @@ func InitAiRouter(ginServer *gin.Engine) {
 		// 使用中间件
 		aiUserRouter.Use(middlewares.TokenAuthUser())
 
-		aiUserRouter.POST("/chat/assistant", neko.ForwardHandler)
-		aiUserRouter.GET("/misc/joke", neko.ForwardHandler)
-		aiUserRouter.POST("/judge/submit", neko.ForwardHandler)
+		aiUserRouter.POST("/chat/assistant", neko.ChatAssistant)
+		aiUserRouter.GET("/misc/joke", neko.GenerateJoke)
+		aiUserRouter.POST("/judge/submit", neko.JudgeSubmit)
 	}
 
 	aiEditorRouter := ginServer.Group("/ai")
@@ -23,10 +23,10 @@ func InitAiRouter(ginServer *gin.Engine) {
 		// 使用中间件
 		aiEditorRouter.Use(middlewares.TokenAuthEditor())
 
-		aiEditorRouter.POST("/problem/parse", neko.ForwardHandler)
-		aiEditorRouter.POST("/problem/translate", neko.ForwardHandler)
-		aiEditorRouter.POST("/problem/generate", neko.ForwardHandler)
-		aiEditorRouter.POST("/testcase/generate", neko.ForwardHandler)
-		aiEditorRouter.POST("/solution/generate", neko.ForwardHandler)
+		aiEditorRouter.POST("/problem/parse", neko.ParseProblem)
+		aiEditorRouter.POST("/problem/translate", neko.TranslateProblem)
+		aiEditorRouter.POST("/problem/generate", neko.GenerateProblem)
+		aiEditorRouter.POST("/testcase/generate", neko.GenerateTestcase)
+		aiEditorRouter.POST("/solution/generate", neko.GenerateSolution)
 	}
 }
