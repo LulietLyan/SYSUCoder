@@ -10,6 +10,7 @@ import (
 )
 
 func InitRoute() error {
+	//asdasdasdasdad
 	// 访问根目录时返回 200
 	ginServer.GET("/", func(c *gin.Context) {
 		c.JSON(http.StatusOK, model.RespOk("SYSUCODER back end start running successfully!", nil))
