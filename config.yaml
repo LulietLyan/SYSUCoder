@@ -30,3 +30,7 @@ neko-acm:
   host: http://127.0.0.1
   port: 14515
   token: 131Fa67D3C52f8d27BbDb777eC23dE3Bb68A24109Fb4c46Cd78471fAa3f9d529
+openai:
+  base_url: https://ai.liaobots.work/v1
+  api_key: DWO7YPyfiXOID
+  model: gpt-4
