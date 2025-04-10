@@ -3,6 +3,7 @@ package neko
 import (
 	"SYSUCODER/boot/configuration"
 	"SYSUCODER/tools/open_ai"
+	"SYSUCODER/tools/prompt"
 	"bytes"
 	"io"
 	"log"
@@ -34,7 +35,7 @@ func InitNekoAcm() error {
 	if err := initLlm(); err != nil {
 		return err
 	}
-
+	prompt.InitPrompt()
 	return nil
 }
 
