@@ -13,6 +13,7 @@ type Config struct {
 	Server    ServerConf   `yaml:"server" json:"server"`
 	Email     EmailConf    `yaml:"email" json:"email"`
 	Token     TokenConf    `yaml:"token" json:"token"`
+	Openai    OpenaiConf   `yaml:"openai" json:"openai"`
 }
 
 // Config 初始化
