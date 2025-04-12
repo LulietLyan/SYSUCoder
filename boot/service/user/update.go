@@ -149,6 +149,7 @@ func UpdateAvatarById(uid uint64, dst string, userId uint64, role entity.Role) (
 	image, err := yuki.UploadImage(dst, model.YukiAvatarAlbum)
 	if err != nil {
 		log.Println(err)
+		log.Println("是不是这里")
 		return "", errors.New("上传失败")
 	}
 

@@ -247,6 +247,10 @@ func ModifyUserAvatar(c *gin.Context) {
 	// 更新头像
 	url, err := user.UpdateAvatarById(uid, dst, id_, role)
 	if err != nil {
+		log.Println(uid)
+		log.Println(dst)
+		log.Println(id_)
+		log.Println(role)
 		c.JSON(http.StatusBadRequest, model.RespError(err.Error(), nil))
 		return
 	}

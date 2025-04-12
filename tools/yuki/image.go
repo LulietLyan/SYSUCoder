@@ -26,26 +26,35 @@ func UploadImage(path string, role uint8) (model.YukiImage, error) {
 	writer := multipart.NewWriter(body)
 	err = writer.WriteField("album_name", model.GetAlbumName(role))
 	if err != nil {
+		log.Println("image.go: 29")
 		return model.YukiImage{}, err
 	}
 	fileinfo, err := os.Stat(path)
+	if err != nil {
+		log.Println("image.go: 34")
+		return model.YukiImage{}, err
+	}
 	part, err := writer.CreateFormFile("file", fileinfo.Name())
 	if err != nil {
+		log.Println("image.go: 39")
 		return model.YukiImage{}, err
 	}
 
 	src, err := os.Open(path)
 	if err != nil {
+		log.Println("image.go: 45")
 		return model.YukiImage{}, err
 	}
 	defer src.Close()
 
 	_, err = io.Copy(part, src)
 	if err != nil {
+		log.Println("image.go: 52")
 		return model.YukiImage{}, err
 	}
 	err = writer.Close()
 	if err != nil {
+		log.Println("image.go: 57")
 		return model.YukiImage{}, err
 	}
 	req.Body = io.NopCloser(body)
@@ -54,6 +63,7 @@ func UploadImage(path string, role uint8) (model.YukiImage, error) {
 
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
+		log.Println("image.go: 66")
 		// 如果发送请求失败，返回错误信息
 		return model.YukiImage{}, err
 	}
@@ -61,20 +71,24 @@ func UploadImage(path string, role uint8) (model.YukiImage, error) {
 	log.Println("resp.StatusCode: ", resp.StatusCode)
 	bodys, err := io.ReadAll(resp.Body)
 	if err != nil {
+		log.Println("image.go: 74")
 		return model.YukiImage{}, err
 	}
 	bodystr := string(bodys)
 	var responses model.YukiResponses
 	err = json.Unmarshal([]byte(bodystr), &responses)
 	if err != nil {
+		log.Println("image.go: 81")
 		return model.YukiImage{}, err
 	}
 	if resp.StatusCode != http.StatusCreated {
+		log.Println("image.go: 85")
 		return model.YukiImage{}, errors.New(responses.Message)
 	}
 	var image model.YukiImage
 	err = mapstructure.Decode(responses.Data, &image)
 	if err != nil {
+		log.Println("image.go: 91")
 		return model.YukiImage{}, err
 	}
 	return image, nil
