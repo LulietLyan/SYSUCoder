@@ -3,7 +3,7 @@
 <p align=center> 
   <a href="https://github.com/LulietLyan?tab=followers"> <img src="https://img.shields.io/github/followers/LulietLyan?label=Followers&style=for-the-badge&color=purple" height="25px" alt="github follow" > </a>
   <a href="https://github.com/LulietLyan/SYSUCoder?tab=stars"> <img src="https://img.shields.io/github/stars/LulietLyan/SYSUCoder?label=Stars&style=for-the-badge" height="25px" alt="github repo stars" > </a>
-  <a href="https://github.com/LulietLyan/SYSUCoder"> <img src="https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge" height="25px" alt="github repo stars" > </a>
+  <a href="https://github.com/LulietLyan/SYSUCoder"> <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" height="25px" alt="github repo stars" > </a>
   <a href="https://github.com/LulietLyan/SYSUCoder"> <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" height="25px" alt="github repo stars" > </a>
 </p> 
 
