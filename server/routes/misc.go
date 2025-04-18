@@ -8,6 +8,7 @@ import (
 )
 
 func InitMiscRoute(ginServer *gin.Engine) {
+	// Dont read this
 	uploadUserRoute := ginServer.Group("/upload")
 	{
 		// 使用中间件

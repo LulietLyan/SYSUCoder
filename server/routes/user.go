@@ -8,6 +8,7 @@ import (
 )
 
 func InitUserRoute(ginServer *gin.Engine) {
+	// Finished
 	userPublicRoute := ginServer.Group("/user")
 	{
 		userPublicRoute.GET("/:id", handler.UserInfo)
@@ -16,6 +17,7 @@ func InitUserRoute(ginServer *gin.Engine) {
 		userPublicRoute.PUT("/password", handler.UserChangePassword)
 	}
 
+	// Finished
 	userUserRoute := ginServer.Group("/user")
 	{
 		// 使用中间件
@@ -26,17 +28,20 @@ func InitUserRoute(ginServer *gin.Engine) {
 		userUserRoute.POST("/avatar/:id", handler.ModifyUserAvatar)
 	}
 
+	// Finished
 	userAdminRoute := ginServer.Group("/user")
 	{
 		// 使用中间件
 		userAdminRoute.Use(middlewares.TokenAuthAdmin())
 
+		// Think about this
 		userAdminRoute.GET("/", handler.UserList)
 		userAdminRoute.POST("/", handler.UserAdd)
 		userAdminRoute.PUT("/role", handler.UserModifyRole)
 
 	}
 
+	// Finished
 	userRootRoute := ginServer.Group("/user")
 	{
 		// 使用中间件

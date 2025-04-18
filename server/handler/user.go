@@ -261,7 +261,6 @@ func ModifyUserAvatar(c *gin.Context) {
 
 // 获取用户列表
 func UserList(c *gin.Context) {
-
 	condition := model.UserWhere{}
 	condition.Parse(c)
 	users, err := user.Select(condition)

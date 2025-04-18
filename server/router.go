@@ -25,18 +25,31 @@ func InitRoute() error {
 	ginServer.Use(middlewares.TokenGetInfo())
 
 	// 模块化路由
+	// Finished
 	routes.InitUserRoute(ginServer)
+	// TODO
 	routes.InitProblemRoute(ginServer)
+	// TODO
 	routes.InitTagRoute(ginServer)
+	// TODO
 	routes.InitSolutionRoute(ginServer)
+	// TODO
 	routes.InitTestcaseRoute(ginServer)
+	// TODO
 	routes.InitJudgeRoute(ginServer)
+	// TODO
 	routes.InitRecordRoute(ginServer)
+	// Finished
 	routes.InitBlogRoute(ginServer)
+	// Finished
 	routes.InitCommentRoute(ginServer)
+	// Finished but need to read twice
 	routes.InitAiRouter(ginServer)
+	// Finished
 	routes.InitStatisticsRoute(ginServer)
+	// Finished
 	routes.InitSystemRoute(ginServer)
+	// Finished
 	routes.InitMiscRoute(ginServer)
 
 	return nil

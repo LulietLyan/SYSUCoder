@@ -8,8 +8,10 @@ import (
 )
 
 func InitProblemRoute(ginServer *gin.Engine) {
+	// TODO
 	problemPublicRoute := ginServer.Group("/problem")
 	{
+		// Think about this
 		problemPublicRoute.GET("/", handler.ProblemList)
 		problemPublicRoute.GET("/:id", handler.ProblemInfo)
 	}
