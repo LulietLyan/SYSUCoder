@@ -8,7 +8,6 @@ import (
 )
 
 func InitProblemRoute(ginServer *gin.Engine) {
-	// TODO
 	problemPublicRoute := ginServer.Group("/problem")
 	{
 		// Think about this

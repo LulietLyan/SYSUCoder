@@ -27,17 +27,17 @@ func InitRoute() error {
 	// 模块化路由
 	// Finished
 	routes.InitUserRoute(ginServer)
-	// TODO
+	// Finished
 	routes.InitProblemRoute(ginServer)
-	// TODO
+	// Finished
 	routes.InitTagRoute(ginServer)
-	// TODO
+	// Finished
 	routes.InitSolutionRoute(ginServer)
-	// TODO
+	// Finished
 	routes.InitTestcaseRoute(ginServer)
-	// TODO
+	// Finished
 	routes.InitJudgeRoute(ginServer)
-	// TODO
+	// Finished
 	routes.InitRecordRoute(ginServer)
 	// Finished
 	routes.InitBlogRoute(ginServer)

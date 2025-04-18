@@ -33,8 +33,7 @@ func SelectProblemById(id uint64, condition model.ProblemWhere) (entity.Problem,
 	where := condition.GenerateWhere()
 	tx := database.Db.Model(&entity.Problem{})
 	tx = where(tx)
-	tx = tx.Where(&entity.Problem{Id: id}).
-		Scan(&p)
+	tx = tx.Where(&entity.Problem{Id: id}).Scan(&p)
 
 	if tx.Error != nil {
 		return entity.Problem{}, tx.Error
