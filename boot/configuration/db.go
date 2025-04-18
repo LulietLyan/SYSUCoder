@@ -12,11 +12,11 @@ type DatabaseConf struct {
 }
 
 func (d *DatabaseConf) Default() {
-	d.Host = "STUOJ-db"
+	d.Host = "SYSUCODER-db"
 	d.Port = "3306"
-	d.Name = "STUOJ-db"
-	d.User = "STUOJ"
-	d.Pwd = "STUOJ"
+	d.Name = "SYSUCODER-db"
+	d.User = "SYSUCODER"
+	d.Pwd = "SYSUCODER"
 	d.MaxConn = 10
 	d.MaxIdle = 5
 }

@@ -8,7 +8,7 @@ type YukiConf struct {
 }
 
 func (y *YukiConf) Default() {
-	y.Host = "STUOJ-yuki"
+	y.Host = "SYSUCODER-yuki"
 	y.Port = "7415"
 	y.Token = ""
 }

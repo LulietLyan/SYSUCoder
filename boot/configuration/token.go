@@ -10,5 +10,5 @@ type TokenConf struct {
 func (t *TokenConf) Default() {
 	t.Expire = 864000
 	t.Refresh = 432000
-	t.Secret = "STUOJ"
+	t.Secret = "SYSUCODER"
 }
